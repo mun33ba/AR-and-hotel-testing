@@ -1,0 +1,14 @@
+sqlalchemy
+PyMySQL
+pymongo
+pymongo[srv]
+flask
+Flask-PyMongo
+numpy
+pandas
+sklearn
+matplotlib
+graphene
+Flask-GraphQL
+graphene-sqlalchemy
+graphene_mongo
