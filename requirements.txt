@@ -2,6 +2,7 @@ sqlalchemy
 PyMySQL
 pymongo
 pymongo[srv]
+pytest
 flask
 Flask-PyMongo
 numpy
