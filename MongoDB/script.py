@@ -104,7 +104,7 @@ class Mongodb:
 if __name__ == "__main__":
     db = Mongodb()
     #db.csvToDataFrame()
-    # db.insertData()
+    #db.insertData()
     #db.createIndex()
     print(db.query(67.0323, 24.8526))
-    #db.getCollectionNames()
+    db.getCollectionNames()

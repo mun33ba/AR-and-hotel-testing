@@ -2,7 +2,6 @@ sqlalchemy
 PyMySQL
 pymongo
 pymongo[srv]
-pytest
 flask
 Flask-PyMongo
 numpy
@@ -13,3 +12,4 @@ graphene
 Flask-GraphQL
 graphene-sqlalchemy
 graphene_mongo
+geopy
