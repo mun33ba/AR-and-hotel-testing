@@ -91,7 +91,7 @@ class Mongodb:
                     "type": "Point",
                     "coordinates": [long, lat]
                 },
-                "$maxDistance": 500}}}):
+                "$maxDistance": 2500}}}):
             # new_doc = {
             #     "id": doc['id'],
             #     "hotel_location": doc["hotel_location"]
