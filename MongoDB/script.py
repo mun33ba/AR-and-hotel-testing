@@ -106,6 +106,6 @@ if __name__ == "__main__":
     #db.csvToDataFrame()
     #db.insertData()
     #db.createIndex()
-    db.info()
+    #db.info()
     print(db.query(67.0323, 24.8526))
     db.getCollectionNames()
