@@ -91,7 +91,7 @@ class Mongodb:
                     "type": "Point",
                     "coordinates": [long, lat]
                 },
-                "$maxDistance": 500}}}):
+                "$maxDistance": 2500}}}):
             # new_doc = {
             #     "id": doc['id'],
             #     "hotel_location": doc["hotel_location"]
@@ -106,6 +106,6 @@ if __name__ == "__main__":
     #db.csvToDataFrame()
     #db.insertData()
     #db.createIndex()
-    db.info()
+    #db.info()
     print(db.query(67.0323, 24.8526))
     db.getCollectionNames()
