@@ -4,6 +4,7 @@ pymongo
 pymongo[srv]
 flask
 Flask-PyMongo
+folium
 numpy
 pandas
 sklearn
