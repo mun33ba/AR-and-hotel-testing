@@ -8,18 +8,18 @@ import re
 
 path = os.getcwd()
 path = Path(path)
-config = "/".join(__file__.split("\\")[:-1])+"/config.json"
+#config = "/".join(__file__.split("\\")[:-1])+"/config.json"
 #config = str(path) + "/config.json"
-config_json = config
+#config_json = config
 pattern = "^[0-9,;]+$"
 
 class Mongodb:
     def __init__(self):
-        with open(str(config_json)) as config:
-            conf = json.load(config)
-            self.username = conf['database']['username']
-            self.password = conf['database']['password']
-            self.database = conf['database']['database']
+#        with open(str(config_json)) as config:
+#            conf = json.load(config)
+#            self.username = conf['database']['username']
+#            self.password = conf['database']['password']
+#            self.database = conf['database']['database']
         self.client = MongoClient("mongodb+srv://seyahat:muniba789@cluster0.6wv4j.mongodb.net/Seyahat?retryWrites=true&w=majority")
         self.db = self.client['Seyahat']
         self.col = self.db['Cluster0']
